@@ -1,0 +1,211 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #57364d;
+  color: #fff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: #57364d;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  padding-left: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  margin: 0 20px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+ul li a:hover{
+  color: #b594a1;
+;
+}
+
+
+.hero {
+  background-color: #8f6678;
+  text-align: left;
+  padding: 80px 20px;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #57364d;
+  color: #ffeedb;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.about {
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  background-color: #b594a1;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.about img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about .btn {
+  margin-top: 20px;
+  background: #57364d;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#services {
+  background-color: #b594a1;
+  padding: 2rem 1rem;
+  color: #fff;
+}
+
+#services h2 {
+  font-size: 25px;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+#services ul {
+  list-style: disc inside;
+  padding-left: 1rem;
+}
+
+#services li {
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+}
+
+
+.skills {
+  background-color: #b594a1;
+;
+  padding: 2rem 1rem;
+  color: #fff;
+}
+
+.skills h2 {
+  font-size: 25px;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.skills ul {
+  list-style: square inside;
+  padding-left: 1rem;
+}
+
+.skills li {
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+}
+
+
+#works {
+  background-color: #b594a1;
+  padding: 2rem 1rem;
+  color: #fff;
+}
+
+#works h2 {
+  font-size: 25px;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+#works p {
+  font-size: 20px;
+}
+
+
+.resume {
+  background-color: #b594a1;
+  padding: 2rem 1rem;
+  color: #fff;
+;
+}
+
+.resume h2 {
+  font-size: 25px;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.resume p {
+  font-size: 20px;
+}
+
+.resume .btn {
+  margin-top: 15px;
+  background: #57364d;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact {
+  background-color: #b594a1;
+  padding: 2rem 1rem;
+  color: #fff;
+}
+
+.contact h2 {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.contact p {
+  font-size: 20px;
+}
+
+
+footer {
+  background: #57364d;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
